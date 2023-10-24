@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Orientação a objetos</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        
+</head>
+<body>
+    <div class="nav1">
+        <nav class="navbar">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">Objeto orientado</a>
+            <img src="img/js.png" alt="" width="30" height="30"  class="d-inline-block align-text-top ">
+            </div>
+        </nav>
+    </div>
+
+    <div class="card-group">
+        <div class="card">
+          <img src="img/1_FLrfOzAHhVtNuH0arGGZ3A.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Objeto</h5>
+            <p class="card-text"></p>
+            <p class="card-text"><small class="text-body-secondary"> objetos são estruturas de dados complexas que permitem armazenar e organizar informações relacionadas. </small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/1_FLrfOzAHhVtNuH0arGGZ3A.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Metodo</h5>
+            <p class="card-text"></p>
+            <p class="card-text"><small class="text-body-secondary"> Métodos são funções associadas a objetos que permitem que você realize ações específicas no objeto ou com seus dados. Por exemplo, um objeto representando uma calculadora pode ter um método chamado "somar" que adiciona dois números.</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/1_FLrfOzAHhVtNuH0arGGZ3A.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Propiedades</h5>
+            <p class="card-text"></p>
+            <p class="card-text"><small class="text-body-secondary"> Propriedades são valores que estão associados a um objeto e descrevem características ou informações sobre o objeto. Por exemplo, um objeto que representa uma pessoa pode ter propriedades como "nome", "idade" e "gênero".</small></p>
+          </div>
+        </div>
+      </div>
+    <br>
+    
+
+    <div class="container">
+        <h1>Exemplo</h1>
+        <form id="personForm">
+            <input type="text" id="firstName" class="form-control" class="form-label" placeholder="Nome">
+            <br>
+            <input type="text" id="lastName" class="form-control" class="form-label" placeholder="Sobrenome">
+            <br>
+            <input type="text" id="language" class="form-control" class="form-label" placeholder="Personalidade">
+            <br>
+            <button type="submit" class="btn btn-success">Enviar</button>
+            <br>
+        </form> 
+      
+
+        <br>
+        <div class="display-details">
+            <p>Resposta</p>
+            <p>Nome: <span id="displayFirstName"></span></p>
+            <p>Sobrenome: <span id="displayLastName"></span></p>
+            <p>Personalidade: <span id="displayLanguage"></span></p>
+        </div>
+    </div> 
+
+
+    <footer class="footer">
+        Gabriel Baia 2°c
+    </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
