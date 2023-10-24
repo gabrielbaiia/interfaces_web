@@ -1,3 +1,3 @@
 # Java-Script-Basico
 
- https://agathalouzada.github.io/Java-Script-Basico/declaracao-de-variaves-js/aula1.html
+ https://gabrielbaiia.github.io/interfaces_web/Objetos_orientados/Inicio.html
